@@ -4,7 +4,7 @@ It is a simple application that I developed to be used in chemical compound desi
 
 - Start selection from the bottom right of your desired region
 - When the mouse click event is released, the application finds the atoms in the highlighted region
-- Using RDKit's Chem.PathToSubmol(mol, selected_atoms) and Chem.MolToSmiles() functions, the application finds the SMILES string of the highlighted region
+- Using RDKit's Chem.PathToSubmol() and Chem.MolToSmiles() functions, the application finds the SMILES string of the highlighted region
 
 Accepting the SMILES string as an argument can be a nice first step for improving this application.
 
